@@ -23,10 +23,12 @@
   },
   "homepage": "https://github.com/JelenaMarjanovic/cy-bdd-tests#readme",
   "dependencies": {
-    "cypress": "^5.4.0",
     "cypress-cucumber-preprocessor": "^4.0.0"
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinitions": true
+  },
+  "devDependencies": {
+    "cypress": "^5.5.0"
   }
 }
