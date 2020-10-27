@@ -10,7 +10,7 @@ class FeedbackPage {
     cy.visit(URL);
   }
 
-  static fillFeedbackForm(name, email, subject, comment) {
+  static fillFeedbackForm({ name, email, subject, comment }) {
     cy.get(NAME_INPUT).type(name);
     cy.get(EMAIL_INPUT).type(email);
     cy.get(SUBJECT_INPUT).type(subject);
